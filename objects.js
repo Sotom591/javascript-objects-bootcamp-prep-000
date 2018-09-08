@@ -2,14 +2,15 @@ var playlist = {
   artistname: ['songtitles']
 }
 
-function updatePlaylist()
+function updatePlaylist(playlist, artistName, songTitle)
 {
-  playlist
-  artist
-  song
+  //add Phil Ochs
+  playlist['Slowdive'] = 'Alison';
+  playlist['My Bloody Valentine'] = 'Sometimes';
+  playlist['Phil Ochs'] = 'Here\'s to the State of Mississippi';
 }
 
-function removeFromPlaylist()
+function removeFromPlaylist(playlist, artistName)
 {
-  
+  //remove Slovdive
 }
